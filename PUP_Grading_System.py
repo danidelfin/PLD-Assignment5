@@ -8,8 +8,10 @@
 def gradePercentage():
     gradeInput = float(input("Input grade: "))
     return gradeInput 
-# Test grades from 97-100
+
+#Test grade percentage to display Grade/Mark and Description
 def gradingSystem():
+    # Test grades from 97-100
     if student_grade >= 97 and student_grade <=100:
         print("Grade/Mark: 1.0")
         print("Description: Excellent")
